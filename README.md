@@ -2,7 +2,7 @@ Alternative homepage for the
 [Rethread browser](https://github.com/veilm/rethread),
 using duckduckgo instead of google.
 
-Hosted at [niljimeno.github.io/web.rethread](https://niljimeno.github.io/web.rethread/).
+Hosted at [niljimeno.github.io/rethread-home](https://niljimeno.github.io/rethread-home/).
 
 ## Setup
 To change the main page,
@@ -10,7 +10,7 @@ you need to run `rethread browser`
 with the `--url` argument:
 
 ```sh
-rethread browser --url niljimeno.github.io/web.rethread
+rethread browser --url niljimeno.github.io/rethread-home
 ```
 
 It's better to run this as a script or an alias.
@@ -26,8 +26,8 @@ rethread bind --alt --shift --key o "$E rethread tabs open 'https://veilm.github
 
 ```sh
 # after
-rethread bind --ctrl --key t "$E rethread tabs open 'https://niljimeno.github.io/web.rethread/' ; $peek"
-rethread bind --alt --shift --key o "$E rethread tabs open 'https://niljimeno.github.io/web.rethread/' ; $peek"
+rethread bind --ctrl --key t "$E rethread tabs open 'https://niljimeno.github.io/rethread-home/' ; $peek"
+rethread bind --alt --shift --key o "$E rethread tabs open 'https://niljimeno.github.io/rethread-home/' ; $peek"
 ```
 
 ## Building the website

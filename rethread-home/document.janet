@@ -14,7 +14,7 @@
             :name "q"
             :autofocus ""}]
    [:input {:type "submit"
-            :value "&#9784;"}]])
+            :value ">"}]])
 
 
 (def links [[:youtube "https://youtube.com"]
@@ -32,11 +32,10 @@
 (def body
   [:body
    [:main
+    [:div {:class "helper-space"}
     [:h1 "Rethread"]
     form
-    shortcuts
-    [:script {:src "redirect.js"}]
-    ]])
+    shortcuts]]])
 
 (defn render
   []
@@ -44,4 +43,5 @@
    (html/doctype :html5)
    [:html {:lang "en"}
     head
-    body]))
+    body
+    [:script {:src "redirect.js"}]]))

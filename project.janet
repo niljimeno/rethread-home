@@ -6,5 +6,5 @@
                  "https://github.com/niljimeno/janet-css"])
 
 (declare-executable
-  :name "web.rethread"
-  :entry "web.rethread/init.janet")
+  :name "rethread-home"
+  :entry "rethread-home/init.janet")
