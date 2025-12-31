@@ -4,6 +4,11 @@ using duckduckgo instead of google.
 
 Hosted at [niljimeno.github.io/rethread-home](https://niljimeno.github.io/rethread-home/).
 
+## State
+Under development, but usable.
+The ui needs a rework.
+The code is a mess right now.
+
 ## Setup
 To change the main page,
 you need to run `rethread browser`

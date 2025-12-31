@@ -4,13 +4,12 @@
   [:head
    [:link {:rel "stylesheet"
            :href "style.css"}]
-   [:title "home"]])
+   [:title "Home"]])
 
 (def form
   [:form {:method "GET"
           :action "https://duckduckgo.com"}
-   [:input {:class "searx"
-            :type "text"
+   [:input {:type "text"
             :name "q"
             :autofocus ""}]
    [:input {:type "submit"
